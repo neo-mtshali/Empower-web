@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Empowering the Nation is a company that was estbalished in 2018 and offers courses in Johannesburg
+    hundreds of domestic workers and gardeners have been trained on both the six - month long Learnerships and six week 
+    Short Skills Training Programmes to empower themselves">
+    <meta name ="keyboards" content ="Empowering the Nation">
+    <title>Fees page</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        div {
+            background-color: rgb(168, 235, 168);
+            padding: 50px;
+        }
+        p {
+            border: 2px solid green;
+            background-color: rgb(172, 224, 172);
+        }
+        input[type="button"] {
+            width: 50px;
+            height: 50px;
+            font-size: 20px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <img src="logo.jpg.jpg" alt="logo" width="90" height="100">
+    <a href="Home.html">HOME</a>
+    <a href="About.html">ABOUT</a>
+    <a href="Fees.html">FEES</a>
+    <a href="Contact.html">CONTACT</a>
+    <a href="Course Summary.html">COURSE SUMMARY</a>
+</nav>
+</div>
+<ul>
+    <li>
+        <a href="#">Course summary</a>
+        <ul class="dropdown">
+            <ul id="submenu">  
+            <li><a href="Child Minding.html">Child Minding</a></li>
+            <li><a href="Cooking.html">Cooking</a></li>
+            <li><a href="Garden Maintenence.html">Garden Maintenence</a></li>
+            <li><a href="Landscaping.html">Landscaping</a></li>
+            <li><a href="Sewing.html">Sewing</a></li>
+            <li><a href="Life Skills.html">Life Skills</a></li>
+            <li><a href="First Aid.html">First Aid</a></li>
+    
+<h2>Calculator</h2>
+<div id="Calculator">
+    <input type="text" id="result" disabled>
+    <br>
+    <input type="button" value="7" onclick="addToResult('7')">
+    <input type="button" value="8" onclick="addToResult('8')">
+    <input type="button" value="9" onclick="addToResult('9')">
+    <input type="button" value="+" onclick="addToResult('+')">
+    <br>
+    <input type="button" value="4" onclick="addToResult('4')">
+    <input type="button" value="5" onclick="addToResult('5')">
+    <input type="button" value="6" onclick="addToResult('6')">
+    <input type="button" value="-" onclick="addToResult('-')">
+    <br>
+    <input type="button" value="1" onclick="addToResult('1')">
+    <input type="button" value="2" onclick="addToResult('2')">
+    <input type="button" value="3" onclick="addToResult('3')">
+    <input type="button" value="" onclick="addToResult('')">
+    <br>
+    <input type="button" value="0" onclick="addToResult('0')">
+    <input type="button" value="." onclick="addToResult('.')">
+    <input type="button" value="=" onclick="calculateResult()">
+    <input type="button" value="/" onclick="addToResult('/')">
+    <input type="button" value="%" onclick="addToResult('%')">
+    <input type="button" value="*" onclick="addToResult('*')">
+    <br>
+    <input type="button" value="C" onclick="clearResult()">
+</div>
+
+<script>
+    function addToResult(value) {
+        document.getElementById('result').value += value;
+    }
+
+    function calculateResult() {
+        var result = document.getElementById('result').value;
+        var calculation = eval(result);
+        document.getElementById('result').value = calculation;
+    }
+
+    function clearResult() {
+        document.getElementById('result').value = "";
+    }
+</script>
+
+<main>
+    <h1>Fees</h1>
+    <article id="col1"></article>
+    <article id="col2">
+        <h2>Price List</h2>
+        <!--Google Form Goes Here-->
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfotCrWWBrnEfeW2mpd8mweoNUNMyQlDoAQvzFYzW8z7xiLUg/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </article>
+    <article id="col3"></article>
+</main>
+</body>
+</html>
+</ul>
+</nav> 
+<p>
+   &copy: Empowering the Nation 2018 | Powered by SME
+
+<footer>
+</div>
+<a href ="https://web.facebook.com">Facebook</a>
+<a href ="https://www.instagram.com">Instagram</a>
+<a href = "https://www.twitter.com" >Twitter</a>
